@@ -1,0 +1,21 @@
+# vscode artifacts
+.vscode
+
+# python cache 
+__pycache__/
+*.pyc
+
+# models 
+models/*.safetensors
+.cache/
+
+# generated images
+output/*.png
+
+# system stuff (Windows/MacOS)
+.DS_Store
+Thumbs.db
+
+# files and folders used only for test and other garbage in the development
+tutti_file_usati/
+generated_images/
