@@ -1,0 +1,9 @@
+torch 
+torchvision
+pillow
+transformers
+accelerate
+diffusers
+gradio
+bitsandbytes
+peft
