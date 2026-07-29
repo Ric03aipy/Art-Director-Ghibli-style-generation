@@ -29,6 +29,6 @@ CMD ["python", "main.py"]
 # in the folder with this file, build with:
 # docker build -t art_director:2.0 .
 # from the terminal launch: 
-# docker run -p 7860:7860 --gpus all -v ~/cache/huggingface:/root/.cache/huggingface -v $(pwd)/models:/app/models -v $(pwd)/output:/app/generated_images art_director:2.0
+# docker run -p 7860:7860 --gpus all -v ~/.cache/huggingface:/root/.cache/huggingface -v $(pwd)/models:/app/models -v $(pwd)/output:/app/generated_images art_director:2.0
 
 # This way the user can substitute in his folder the .safetensors file and adapt to another style. 
